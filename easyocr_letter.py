@@ -161,7 +161,7 @@ def create_juxtaposed_collage(ocr_data1, ocr_data2, author1_path, author2_path):
     max_height = max([item['height'] for item in ocr_data1 + ocr_data2]) * 26
 
     collage_width = img1.width + middle_column_width + margin * 2 + 4000
-    collage_height = max_height - 1800
+    collage_height = int(max_height - 1800)
     collage = Image.new("RGB", (collage_width, collage_height), "white")
 
     # Prepare font for the middle column letters

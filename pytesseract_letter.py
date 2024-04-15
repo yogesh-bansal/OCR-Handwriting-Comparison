@@ -4,7 +4,7 @@ import pytesseract
 from PIL import Image, ImageDraw, ImageFont
 
 
-pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+# pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
 
 def split_into_characters(ocr_result):
