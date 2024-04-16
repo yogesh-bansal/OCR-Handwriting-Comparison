@@ -6,6 +6,7 @@ This project allows users to compare handwritten text recognition performance be
 
 - [Description](#description)
 - [Features](#features)
+- [Configuration](#configuration)
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
@@ -19,6 +20,12 @@ The project aims to help users understand and compare the effectiveness of diffe
 - Supports Pytesseract and EasyOCR algorithms for text recognition.
 - Allows users to compare either letters or words from two uploaded images.
 - Provides a simple and intuitive interface for users to upload images and view comparison results.
+
+## Configuration
+
+Install and configure Tesseract OCR based on your operating system.
+
+For windows, installl the Tesseract executable file from [here](https://github.com/UB-Mannheim/tesseract/wiki)
 
 ## Installation
 
